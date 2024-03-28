@@ -1,0 +1,16 @@
+.container {
+  max-width: 768px;
+  margin-inline: auto;
+}
+.number-assistent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.25rem;
+  padding-inline: 0.75rem;
+  font-size: $space-small;
+  line-height: 1;
+  background: $gray-400;
+  color: $gray-100;
+  border-radius: 0.25rem;
+}

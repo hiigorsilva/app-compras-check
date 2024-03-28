@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+img {
+  display: block;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+h1 {
+  line-height: 1.3;
+}
+p {
+  line-height: 1.5;
+}

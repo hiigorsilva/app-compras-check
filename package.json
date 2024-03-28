@@ -1,0 +1,11 @@
+{
+  "name": "compras-check",
+  "version": "1.0.0",
+  "description": "Aplicativo de Lista de Compras",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch src/styles/scss:src/styles/css/ --no-source-map --style compressed"
+  },
+  "author": "Higor Code",
+  "license": "ISC"
+}

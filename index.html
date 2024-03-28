@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compras Check </title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/styles/css/style.css">
+</head>
+
+<body>
+
+  <main class="main">
+    <header class="header">
+      <h1 class="title">
+        <svg width="100" height="116" viewBox="0 0 100 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M11.0318 115.834C7.99809 115.834 5.40009 114.755 3.23785 112.596C1.07928 110.434 0 107.836 0 104.802V38.6114C0 35.5777 1.07928 32.9815 3.23785 30.823C5.40009 28.6607 7.99809 27.5796 11.0318 27.5796H22.0637C22.0637 19.9492 24.7536 13.4441 30.1335 8.06428C35.5097 2.68809 42.0129 0 49.6433 0C57.2736 0 63.7788 2.68809 69.1586 8.06428C74.5348 13.4441 77.2229 19.9492 77.2229 27.5796H88.2547C91.2885 27.5796 93.8865 28.6607 96.0487 30.823C98.2073 32.9815 99.2866 35.5777 99.2866 38.6114V104.802C99.2866 107.836 98.2073 110.434 96.0487 112.596C93.8865 114.755 91.2885 115.834 88.2547 115.834H11.0318ZM49.6433 71.707C57.2736 71.707 63.7788 69.017 69.1586 63.6372C74.5348 58.261 77.2229 51.7577 77.2229 44.1274H66.1911C66.1911 48.724 64.5822 52.6311 61.3646 55.8487C58.147 59.0663 54.2399 60.6751 49.6433 60.6751C45.0467 60.6751 41.1396 59.0663 37.922 55.8487C34.7043 52.6311 33.0955 48.724 33.0955 44.1274H22.0637C22.0637 51.7577 24.7536 58.261 30.1335 63.6372C35.5097 69.017 42.0129 71.707 49.6433 71.707ZM33.0955 27.5796H66.1911C66.1911 22.983 64.5822 19.0759 61.3646 15.8583C58.147 12.6407 54.2399 11.0318 49.6433 11.0318C45.0467 11.0318 41.1396 12.6407 37.922 15.8583C34.7043 19.0759 33.0955 22.983 33.0955 27.5796Z"
+            fill="currentColor" />
+        </svg>
+        <span>Compras<span class="mark">Check</span></span>
+      </h1>
+    </header>
+
+    <section class="content-wrapper">
+      <section class="inputArea">
+        <input id="inputText" class="input-text" type="text" placeholder="Adicione um novo item" />
+        <span class="warning-input">Você precisa digitar algo para adicionar!</span>
+        <button id="addItem" class="cta">Adicionar</button>
+      </section>
+
+      <section class="listArea">
+        <div class="infoArea">
+          <div class="created-items">
+            Itens adicionados <span class="number-assistent" id="counterTotal">0</span>
+          </div>
+          <div class="done">
+            Concluídas <span class="number-assistent" id="counterCompleted">0 de 0</span>
+          </div>
+        </div>
+        <ul class="list" id="list"></ul>
+      </section>
+    </section>
+
+    <footer class="footer">
+      <span class="copywriting">
+        2024 © Todos os direitos reservados.
+      </span>
+    </footer>
+  </main>
+
+  <script src="./src/js/app.js"></script>
+</body>
+
+</html>
